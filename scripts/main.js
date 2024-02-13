@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
 
 document.getElementById('btnDownload').addEventListener('click', function() {
   // Chamar a função salvarPaginaComoPDF quando o botão for clicado
-  salvarPaginaComoPDF('URL_DA_PAGINA', 'Humberto_Dantas.pdf');
+  salvarPaginaComoPDF('https://humbertojd-cv.vercel.app/', 'Humberto_Dantas.pdf');
 });
 
 async function salvarPaginaComoPDF(url, nomeArquivo) {
